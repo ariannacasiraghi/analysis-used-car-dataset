@@ -12,19 +12,19 @@ This project was completed as part of the **Programming for Data Science module 
 The dataset can be found [here](https://www.kaggle.com/datasets/taeefnajib/used-car-price-prediction-dataset). This dataset is rather small; it comprises 4,009 entries, each corresponding to a unique car listing, and for each car, it contains information regarding several features/properties. According to the description of the dataset, this data was scraped from the web. 
 
 ## Methods
-**Preliminary steps:**
+1. **Preliminary steps:**
 - Exploratory data analysis
 - Data cleaning
 - Feature engineering
-**Objective 1:**
+2. **Objective 1:**
 - Visualize car price distribution
 - Plot the effect of various features on car price
 - Investigate correlation (Spearman) between numerical features
-**Objective 2:**
+3. **Objective 2:**
 - Data preprocessing (imputing and encoding)
 - Build and fit a random forest regression model on the training data. The model was tuned using grid search and cross validation.
 - Model evaluation (R2 score)
- **Objective 3:**
+ 4. **Objective 3:**
 - Data preprocessing (imputing and encoding)
 - Build and fit a random forest classification model on the training data. The model was tuned using grid search and cross validation.
 - Model evaluation (macro recall, confusion matrix)
